@@ -11,7 +11,7 @@ from hbm_utils import extract_status
 # github 연동 테스트
 
 # 페이지 설정
-st.set_page_config(page_title="HBM VLM AI Inspector", layout="wide")
+st.set_page_config(page_title="HBM VLM_PINN AI Inspector", layout="wide")
 
 # 데이터베이스 초기화 및 모델 로드
 init_db()
