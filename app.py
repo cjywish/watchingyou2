@@ -8,8 +8,6 @@ from inference import VLMInspector
 from database import init_db, save_inspection, get_all_inspections
 from hbm_utils import extract_status
 
-# github 연동 테스트
-
 # 페이지 설정
 st.set_page_config(page_title="HBM VLM_PINN AI Inspector", layout="wide")
 
