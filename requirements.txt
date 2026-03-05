@@ -1,0 +1,23 @@
+# --- 핵심 프레임워크 및 UI ---
+streamlit>=1.30.0
+google-generativeai
+python-dotenv
+opencv-python-headless
+
+xlsxwriter
+# --- 데이터처리 및 시각화 ---
+
+
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.15.0
+openpyxl>=3.1.0
+
+# --- 이미지 처리 ---
+
+Pillow>= 10.0.0
+
+torch
+# --- 데이터베이스 및 시스템 ---
+# sqlite3는 파이썬 기본 라이브러리이므로 별도 명시 불필요
+# 아래는 JSONL 처리 및 정규표현식을 위한 보조 도구 (기본 포함)
