@@ -37,7 +37,7 @@ if st.sidebar.button("Generate New HBM Sample"):
     st.sidebar.success("새 공정 샘플 생성 완료")
 
 # --- 메인 화면 구성 ---
-st.title("🛡️ HBM Intelligent VLM Inspection System")
+st.title("🛡️ HBM Intelligent VLM_PINN Inspection System")
 st.markdown("---")
 
 col1, col2 = st.columns([1, 1])
