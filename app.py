@@ -54,7 +54,7 @@ with col2:
     st.subheader("🧠 AI VLM & PINN Analysis")
     if st.button("Run Hybrid Analysis", type="primary"):
         if st.session_state.sample_img is not None:
-            with st.spinner("VLM과 PINN이 협력하여 분석 중입니다..."):
+            with st.spinner("지금 VLM과 PINN이 협력하여 분석중이오니 잠시만 기다려주세요 ..."):
                 # 수정된 통합 분석 함수 호출
                 full_report, internal_temp = inspector.analyze_with_physics(
                     st.session_state.sample_img, st.session_state.telemetry
